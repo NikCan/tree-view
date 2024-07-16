@@ -1,0 +1,31 @@
+.TreeView {
+  padding: 8px;
+}
+
+.TreeNode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.TreeNode:hover {
+  opacity: 0.7;
+}
+
+.TreeNode .sign {
+  min-width: 12px;
+}
+
+.TreeChildren {
+  margin-left: 20px;
+  overflow: hidden;
+}
